@@ -22,8 +22,8 @@ const Hero = () => {
             </p>
             <button className='px-6 py-1.5 md:px-8 md:py-2.5
                  text-white font-semibold text-sm md:text-lg
-                 transition-all duration-200 rounded-lg mt-8 bg-blue-600
-                  hover:bg-blue-900 flex items-center space-x-2'>
+                 transition-all duration-200 rounded-lg mt-8 bg-[#673147]
+                  hover:bg-[#bb3385] flex items-center space-x-2'>
               <span>Download CV</span>
               <FaDownload />
             </button>

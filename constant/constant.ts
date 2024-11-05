@@ -8,21 +8,18 @@ export const navLinks = [
         id:2,
         url:"#",
         label:"About"
-    },   {
+    },     {
         id:3,
         url:"#",
-        label:"Services"
-    },   {
+        label:"Projects"
+    }, 
+    {
         id:4,
         url:"#",
-        label:"Projects"
-    },   {
-        id:5,
-        url:"#",
-        label:"Review"
-    },  
+        label:"Renegade"
+    },
     {
-        id:6,
+        id:5,
         url:"#",
         label:"Contacts"
     },

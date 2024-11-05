@@ -35,6 +35,10 @@
 
 
 
+.clip-trapezium {
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
