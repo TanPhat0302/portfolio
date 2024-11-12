@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import { Sora } from 'next/font/google';
 import "./globals.css";
 import ResponsiveNav from "@/components/Home/NavBar/ResponsiveNavBar";
+import Footer from "@/components/Home/Footer/Footer";
 
 const font = Sora({
   subsets: ['latin'],
@@ -26,7 +26,7 @@ export default function RootLayout({
       >
         <ResponsiveNav/>
         {children}
-
+        <Footer/>
       </body>
     </html>
   );

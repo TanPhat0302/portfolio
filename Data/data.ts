@@ -54,3 +54,65 @@ export const designer = {
         }
     ]
 }
+
+
+export const model = {
+    proj: [
+        {
+            img:"/images/coruption.png",
+            link:"https://sketchfab.com/3d-models/corruption-horizontal-zero-dawn-1f5110ed7ecc442fb1c101077bf02f05"
+        },
+        {
+            img:"/images/dinosaur.png",
+            link:"https://sketchfab.com/3d-models/3d-robot-fish-4327de7018e6480d9f32d49f956bd9c9"
+        },
+        {
+            img:"/images/pokemon.png",
+            link:"https://sketchfab.com/3d-models/pokemon-d6b95bba42a44c6191136dcfbb5d8a4c"
+        },
+        {
+            img:"/images/Rbot.png",
+            link:"https://sketchfab.com/3d-models/3d-robot-e5fef527ec3849f29759f42c21065665"
+        },
+    ]
+}
+
+export const indevit = {
+    tasks: [
+        {
+            description: "Contributed to the development of multiple key features for Indevit's internal webpage using React, Gatsby, HTML, and CSS. Focused on creating responsive, user-friendly interfaces and optimizing overall performance to ensure a seamless experience across various browsers."
+        },
+        {
+            description: "Played a key role in developing a Timesheet Application using C#, ASP.NET (Server), MSSQL (Database), and Razor, HTML/CSS (Frontend). Indevit employees use this application daily to log hours, greatly enhancing productivity and time management by eliminating manual tracking."
+        },
+        {
+            description: "Collaborated with experienced developers to build many external customer projects using C#, TypeScript, React, and the React Chakra UI library."
+        },
+        {
+            description: "Worked with Git as the version control tool daily to create branches for new features, resolve merge conflicts, and facilitate discussions to ensure project integrity and code quality in the Azure DevOps repository."
+        },
+        {
+            description: "Implemented CI/CD pipelines using Azure DevOps to automate the build, test, and deployment processes for both internal and customer-facing applications, significantly reducing deployment time and ensuring consistent software delivery."
+        }
+    ]
+};
+
+export const ContactData = {
+    phone:"+358 468834540",
+    email:"phatt.maii01@gmail.com",
+    address: "Vaasa, Finland",
+    linkedin:{
+        name:"linkedin.com/in/phat-mai01/",
+        link:"https://www.linkedin.com/in/phat-mai01/" 
+    },
+    github: {
+        name:"github.com/TanPhat0302",
+        link:"https://github.com/TanPhat0302"
+    },
+    sketchfab:{
+        name:"sketchfab.com/LittleFatt",
+        link:"https://sketchfab.com/LittleFatt"
+    }
+};
+
+

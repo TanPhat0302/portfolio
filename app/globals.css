@@ -9,7 +9,7 @@
       after:content-[''] 
       after:absolute 
       after:h-[3px]
-      after:bg-yellow-400 
+      after:bg-pink-900
       text-white 
       after:w-full 
       after:scale-x-0 
@@ -33,8 +33,14 @@
   
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 
+.clip-corners {
+  clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+}
 .clip-trapezium {
   clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
 }
