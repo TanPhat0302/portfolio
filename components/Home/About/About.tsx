@@ -7,12 +7,8 @@ import { FaArrowDown, FaCss3Alt, FaJs } from 'react-icons/fa'
 import { GiLevelEndFlag } from 'react-icons/gi'
 import { SiCsharp, SiReact, SiTypescript } from 'react-icons/si'
 
-type Props = {
-  scrollToWebdev: () => void
-  scrollToDesigner: () => void
-}
 
-const About = ({ scrollToWebdev, scrollToDesigner }: Props) => {
+const About = () => {
   return (
     <div id="about" className="pt-40 pb-16 bg-[#050709] h-[88vh] ">
       <SectionHeading>About Me</SectionHeading>
@@ -92,7 +88,7 @@ const About = ({ scrollToWebdev, scrollToDesigner }: Props) => {
 
               <div className='pt-6 flex justify-center'>
                 <Link href='#designer'>
-                <button onClick={scrollToDesigner} className='bg-[#595168] hover:bg-[#78184a] transition-all duration-200 py-1.5 px-5 rounded-2xl flex items-center gap-2 text-white'>
+                <button className='bg-[#595168] hover:bg-[#78184a] transition-all duration-200 py-1.5 px-5 rounded-2xl flex items-center gap-2 text-white'>
                   More
                   <FaArrowDown className="text-white w-5 h-5" />
                 </button>           

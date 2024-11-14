@@ -4,6 +4,7 @@ import DesginerCard from './DesginerCard'
 import Showcase from './Showcase'
 
 const Designer = () => {
+
     return (
         <div id="designer" className='pt-40 pb-10 bg-[#050709] h-[88vh]'>
             <SectionHeading>3D design</SectionHeading>

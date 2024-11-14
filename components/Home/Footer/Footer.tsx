@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 const Footer = () => {
+  
   return (
     <div className='pt-10 pb-16 bg-[#0f0715]'>
         <div className='flex justify-center relative'>
