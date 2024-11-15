@@ -8,15 +8,10 @@ import Designer from './Designer/Designer'
 import Contact from './Contact/Contact'
 
 const Home = () => {
-  const webdevRef = useRef<HTMLDivElement>(null)
-  const designerRef = useRef<HTMLDivElement>(null)
-  const scrollToWebdev = () => webdevRef.current?.scrollIntoView({ behavior: 'smooth' })
-  const scrollToDesigner = () => designerRef.current?.scrollIntoView({ behavior: 'smooth' })
-
   return (
     <div className='overflow-hidden'>
         <Hero/>
-        <About scrollToWebdev={scrollToWebdev} scrollToDesigner={scrollToDesigner} />
+        <About />
         <Webdev/>
         <Designer/>
         <Contact/>
