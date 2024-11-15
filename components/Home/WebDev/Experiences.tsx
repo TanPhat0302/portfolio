@@ -18,7 +18,7 @@ const Experiences = () => {
                             <li className='relative pl-6'>
                                 <div className='absolute left-0 -top-0.5'>
                                     <GoDotFill className="text-white text-2xl" />
-                                    <div className='absolute top-2 left-[11px] w-[2px] h-[9.5em] bg-white'></div>
+                                    <div className='absolute top-2 left-[11px] w-[2px] h-[10rem] bg-white'></div>
                                 </div>
                                 <div className='space-y-2 text-sm text-white'>
                                     <p>11/2023</p>

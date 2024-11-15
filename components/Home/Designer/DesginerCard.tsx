@@ -31,19 +31,19 @@ const DesginerCard = () => {
                     <div className='w-40 h-56 sm:w-48 sm:h-64 md:w-[110px] md:h-[250px] overflow-hidden border bg-[#dcdcdc] border-[#dcdcdc]  transform skew-x-12 '></div>
                 </div>
             </div>
-            <div className='flex flex-col justify-start items-center mt-[2rem]'>
-                <div className='mx-[100] p-4 pl-12 pr-12 bg-[#595168]  clip-corners'>
+            <div className='flex flex-row md:flex-col md:pl-0 pl-[8rem] justify-start gap-2 items-center mt-[2rem]'>
+                <div className='mx-[100] p-4 pl-6 pr-6 md:pl-12 md:pr-12 bg-[#595168]  clip-corners'>
                     <div className='overflow-hidden rounded-full'>
                         <Image
                             src={BaseInfo.profilePic}
                             alt={BaseInfo.name}
                             width={60}
                             height={60}
-                            className="object-cover w-full h-full"
+                            className="object-cover md:w-full md:h-full min-w-[3rem] min-h-[3rem]"
                         />
                     </div>
                 </div>
-                <p className='text-white text-xl font-semibold mt-2'>Featured Artist</p>
+                <p className='text-white md:mt-0 mt-4 text-[20px] md:text-xl font-semibold'>Featured Artist</p>
             </div>
         </div>
     )

@@ -33,8 +33,8 @@ const Nav = ({ openNav }: Props) => {
     <div className={`fixed ${navBg ? 'bg-[#240b39]' : 'fixed'} h-[12vh] w-full z-[10] transition-all duration-200`}>
       <div className='flex items-center h-full justify-between w-[95%] sm:w-[90%] xl:w-[95%] mx-auto'>
         <div className='relative flex items-center'>
-          <Image src="/images/Eyes.svg" alt="Logo" width={170} height={170} className='ml-0 md:scale-[0.7] ml:scale-[0.5]' />
-          <Image src="/images/renegade.svg" alt="Logo" width={170} height={170} className='absolute ml-[8rem] md-[5rem] md:scale-[1] ml:scale-[0.8]' />
+          <Image src="/images/Eyes.svg" alt="Logo" width={170} height={170} className='ml-0 md:scale-[0.7] ml:scale-[0.5] scale-[0.5]' />
+          <Image src="/images/renegade.svg" alt="Logo" width={170} height={170} className='absolute md:ml-[8rem] md-[5rem] md:scale-[1] ml:scale-[0.8] scale-[0]' />
         </div>
         <div className='flex items-center space-x-10'>
           <div className='hidden lg:flex items-center space-x-8'>
