@@ -52,7 +52,7 @@ const Nav = ({ openNav }: Props) => {
           </div>
           <div className='flex items-center space-x-4'>
             <Link href="#contact">
-              <button className='md:px-10 md:py-3 px-8 py-3 text-pink-900 font-semibold sm:text-base text-sm bg-white hover:bg-gray-300 transition-all duration-200 rounded-lg'>
+              <button className='md:px-10 md:py-3 px-8 py-3 text-pink-900 font-semibold sm:text-base md:text-sm text-[10px] bg-white hover:bg-gray-300 transition-all duration-200 rounded-lg'>
                 Contact me
               </button>
             </Link>

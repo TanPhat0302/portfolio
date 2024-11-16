@@ -9,9 +9,9 @@ const DesginerCard = () => {
         <div className='flex  flex-col items-center justify-between mb-[1rem] w-[35%] h-full '>
             <p className='flex flex-row gap-2 justify-center text-white text-xl font-semibold items-center border-b border-gray-600 px-20 pb-2'>
                 <SiSketchfab className='text-3xl' /> 3D Project Model</p>
-            <div className='flex  flex-col mt-[1rem] items-center'>
+            <div className='flex flex-col mt-[1rem] pl-[10rem] md:pl-0'>
                 <div className="flex justify-center items-center space-x-1 border-[#dcdcdc] border-t-4 border-b-4">
-                    <div className='w-40 h-56 pl-[20px] sm:w-10 sm:h-64 md:w-[110px] md:h-[250px]
+                    <div className='w-20 h-28 pl-[20px] md:w-[110px] md:h-[250px]
                                  border bg-[#dcdcdc] border-[#dcdcdc] skew-x-12 '>
 
                     </div>
@@ -28,7 +28,7 @@ const DesginerCard = () => {
                             </ModelCard>
                         </a>
                     ))}
-                    <div className='w-40 h-56 sm:w-48 sm:h-64 md:w-[110px] md:h-[250px] overflow-hidden border bg-[#dcdcdc] border-[#dcdcdc]  transform skew-x-12 '></div>
+                    <div className='w-20 h-28 md:w-[110px] md:h-[250px] overflow-hidden border bg-[#dcdcdc] border-[#dcdcdc]  transform skew-x-12 '></div>
                 </div>
             </div>
             <div className='flex flex-row md:flex-col md:pl-0 pl-[8rem] justify-start gap-2 items-center mt-[2rem]'>

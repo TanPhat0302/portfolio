@@ -6,7 +6,7 @@ import AboutDesigner from './AboutDesigner'
 
 const About = () => {
   return (
-    <div id="about" className="pt-40 pb-16 bg-[#050709] h-[88vh] ">
+    <div id="about" className="pt-40 pb-16 bg-[#050709]">
       <SectionHeading>About Me</SectionHeading>
       <div className="w-[86%] mx-auto flex flex-col md:flex-row gap-10 items-start mt-20 ">
         <AboutDev />
